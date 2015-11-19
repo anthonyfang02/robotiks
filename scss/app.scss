@@ -1,0 +1,67 @@
+/**
+
+  @app
+  MG_Framework v 0.9
+---------------------------------------------------------
+
+  Author: Mike Fortuna
+  Halo Media LLC
+  Project:
+
+--------------------------------------------------------- */
+
+//-theme config
+@import "mg-theme/config/var";
+@import "mg-theme/config/colors";
+@import "mg-theme/config/animations";
+@import "mg-theme/config/images";
+@import "mg-theme/config/dimensions";
+@import "mg-theme/config/settings";
+
+//-mg-core base
+@import "mg-core/base/helpers";
+@import "mg-core/base/mixins";
+@import "mg-core/base/transitions";
+@import "mg-core/base/reset";
+@import "mg-core/base/print";
+@import "mg-core/base/grid";
+
+//theme fonts
+@import "mg-theme/config/fonts";
+
+//-mg-core elements
+@import "mg-core/elements/body";
+@import "mg-core/elements/header";
+@import "mg-core/elements/nav";
+@import "mg-core/elements/main";
+@import "mg-core/elements/section";
+@import "mg-core/elements/article";
+@import "mg-core/elements/code";
+@import "mg-core/elements/footer";
+
+//-mg-core modules
+@import "mg-core/modules/logo";
+@import "mg-core/modules/buttons";
+@import "mg-core/modules/headings";
+@import "mg-core/modules/hero";
+@import "mg-core/modules/modals";
+@import "mg-core/modules/form";
+@import "mg-core/modules/sidebar";
+@import "mg-core/modules/social";
+@import "mg-core/modules/table";
+
+//-theme custom styles
+@import "mg-theme/custom/buttons";
+@import "mg-theme/custom/main";
+@import "mg-theme/custom/social";
+
+//-music modules
+@import "mg-music/buy-links";
+@import "mg-music/media-wall";
+@import "mg-music/tour";
+
+//-theme responsive
+@import "mg-theme/responsive/mobile";
+@import "mg-theme/responsive/tablet";
+@import "mg-theme/responsive/desktop";
+@import "mg-theme/responsive/ie";
