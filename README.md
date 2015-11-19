@@ -18,3 +18,6 @@ MG-music is a collection of modules for use with various music clients. Includes
 ## mg-ionic
 
 Mg-ionic is a collection of modules for use with ionic to build mobile applications. For more on ionic: https://github.com/driftyco/ionic
+=======
+# robotics
+Robotics Project
