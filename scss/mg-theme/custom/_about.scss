@@ -1,0 +1,49 @@
+main {
+	// rows
+	.row {
+		margin: 0;
+		padding: 0;
+	}
+	// wrapper
+	.wrapper, .spotlight {
+		background-color: #2e3842;
+	  margin: 0;
+		padding: 0;
+	}
+	// spotlight content
+	.content {
+		margin: 0;
+		padding: 50px;
+	}
+	.spotlight {
+		h2 {
+			text-transform: uppercase;
+			margin-bottom: 15px;
+			font-family: $raleway;
+			font-weight: 200;
+		}
+		p {
+			font-size: 1em;
+			font-family: $raleway;
+			margin-bottom: 40px;
+		}
+		.image img {
+			width: 530px;
+	  	height: 330px;
+	  	margin: 0;
+	  	padding: 0;
+		}
+		.email {
+			color: $var-black;
+		}
+		&:nth-child(1) {
+			background-color: rgba(41, 41, 41, 0.525);
+		}
+		&:nth-child(2) {
+			background-color: rgba(61, 61, 61, 0.525);
+		}
+		&:nth-child(3) {
+			background-color: rgba(71, 71, 71, 0.525);
+		}
+	}
+}

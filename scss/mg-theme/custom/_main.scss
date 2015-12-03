@@ -3,33 +3,38 @@
 // ==========================================================================
 
 .nav ul {
-	padding: 20px 0;
+	padding: 15px 0;
 }
 
-#header h1 a {
+#header h1 {
 	text-transform: uppercase;
+	font-size: 45px;
 	font-family: $raleway, sans-serif;
 	font-weight: 300;
-
-	&:hover {
+	margin: 0;
+	padding: 0;
+	a:hover {
 		color: $var-white;
+		text-decoration: none;
 	}
-
 }
 
 #header .links ul li {
 	border-left: solid 1px rgba(160, 160, 160, 0.3);
-  line-height: 1;
-  margin-left: 1em;
-  padding-left: 1em;
-
-  &:first-child {
-  	border-left: none;
+	line-height: 1;
+	margin-left: 1em;
+	padding-left: 1em;
+	a:hover {
+		text-decoration: none;
 	}
-
+	&:first-child {
+		border-left: none;
+	}
 }
 
 main {
+	background-color: #2e3842;
+	// title
 	.title {
 		padding: 20px 0;
 		text-align: center;
@@ -38,7 +43,17 @@ main {
 		font-size: 2em;
 		text-transform: uppercase;
 	}
-	
+	// carousel 
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		height: 500px;
+		width: 70%;
+		margin: auto;
+	}
+	.logo {
+		width: 100%;
+    margin: 30px auto;
+	}
 }
 
 footer {

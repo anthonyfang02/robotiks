@@ -4,6 +4,10 @@
 // ==========================================================================
 
 @media #{$desktop} {
+  .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
   ul.nav {
     //shows nav even after jQuery closes it and browser is resized back
