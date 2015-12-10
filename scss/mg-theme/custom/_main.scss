@@ -43,16 +43,45 @@ main {
 		font-size: 2em;
 		text-transform: uppercase;
 	}
-	// carousel 
+	&.spotlight .image img {
+		height: 343px;
+	}
+	// carousel
 	.carousel-inner > .item > img,
 	.carousel-inner > .item > a > img {
 		height: 500px;
-		width: 70%;
+		width: 100%;
 		margin: auto;
 	}
 	.logo {
 		width: 100%;
-    margin: 30px auto;
+			margin: 30px auto;
+	}
+	.video {
+		text-align: center;
+	}
+	.audio {
+		text-align: center;
+	}
+	.learn h1 {
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $raleway;
+		font-weight: 300;
+		font-size: 2em;
+	}
+	.learn .row {
+		p {
+			padding: 0 15px;
+			font-family: $raleway;
+			font-size: 1em;
+		}
+		text-align: center;
+		padding: 20px 10px;
+	}
+	.robot {
+		width: 376px;
+		height: 252px;
 	}
 }
 

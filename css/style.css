@@ -259,7 +259,7 @@ input[type="submit"] {
 .wrapper {
   width: 100%;
   padding: 0 2em;
-  max-width: 85em;
+  max-width: 92em;
   margin-left: auto;
   margin-right: auto; }
 
@@ -719,14 +719,36 @@ main {
     font-weight: 900;
     font-size: 2em;
     text-transform: uppercase; }
+  main.spotlight .image img {
+    height: 343px; }
   main .carousel-inner > .item > img,
   main .carousel-inner > .item > a > img {
     height: 500px;
-    width: 70%;
+    width: 100%;
     margin: auto; }
   main .logo {
     width: 100%;
     margin: 30px auto; }
+  main .video {
+    text-align: center; }
+  main .audio {
+    text-align: center; }
+  main .learn h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 2em; }
+  main .learn .row {
+    text-align: center;
+    padding: 20px 10px; }
+    main .learn .row p {
+      padding: 0 15px;
+      font-family: "Raleway", sans-serif;
+      font-size: 1em; }
+  main .robot {
+    width: 376px;
+    height: 252px; }
 
 footer {
   text-align: center;
@@ -896,6 +918,10 @@ main .spotlight:nth-child(3) {
         background: #f8d688; }
 
 @media only screen and (max-width: 737px) {
+  .video video {
+    width: 375px;
+    padding: 50px 10px; }
+
   #header h1 {
     font-size: 42px;
     text-align: left;
